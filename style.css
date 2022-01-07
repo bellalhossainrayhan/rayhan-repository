@@ -1,0 +1,236 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  
+}
+          /* container */
+#container{
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  margin-right: 200px;
+  margin-left: 200px;
+ 
+}
+.left-col{
+  
+  flex-basis: 50%;
+}
+
+.header-text{
+  max-width: 350px;
+  margin-top: 100px;
+}
+span{
+  color: #f67c92;
+}
+p{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  line-height:25px;
+  color: #777;
+  text-align: justify;
+  
+}
+.common-btn{
+  margin-top: 15px;
+  margin-bottom: 30px;
+  padding: 14px 30px;
+  background: transparent;
+  outline: none;
+  border: 2px solid #f67c92;
+  font-weight:  bold ;
+  cursor: pointer;
+
+}
+h4{
+  color:black;
+  font-size: 18px;
+  font-family: serif;
+  letter-spacing: 0.5px;
+}
+
+#right-col{
+  flex-basis: 50%;
+  background-image: url(images/person/person-4.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 70vh;
+  
+  margin-bottom: 10px;
+  
+}
+
+
+/*---Features_--*/
+#features{
+  padding-top:50px ;
+  padding-bottom: 50px;
+  
+}
+.feature-row{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.feature-col{
+  flex-basis: 25%;
+  text-align: center;
+}
+.msn{
+  text-align: center;
+  padding-bottom: 30px;
+  font-family: 'Prompt', sans-serif;
+}
+.feature-col img{
+  width: 200px;
+}
+.feature-col h4{
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 400;
+}
+feature-col p{
+  text-align: center;
+}
+
+
+/*--about--*/
+#about{
+  padding: 100px 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#offer{
+  padding: 100px 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.about-left-col{
+  flex-basis: 50%;
+}
+.about-left-col img{
+  width: 500px;
+  padding-left: 70px;
+}
+.about-right-col{
+  flex-basis: 50%;
+  text-align: right;
+}
+.about-text{
+  max-width: 500px;
+  margin-right: 100px;
+  display: inline-block;
+}
+.about-text h1{
+  margin: 50px 0 10px;
+  font-size: 40px;
+  color: #000000;
+  font-family: 'Abril Fatface', cursive;
+}
+.about-text h3{
+ 
+  font-size: 28px;
+  color: #000000;
+}
+
+
+/*---courses---*/
+#courses{
+  padding: 100px 0;
+}
+.course-row{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.course-right-col{
+  flex-basis: 50%;
+}
+.course-right-col img{
+  width: 500px;
+  margin-left: 70px;
+}
+.course-left-col{
+  flex-basis: 50%;
+}
+.course-text{
+  max-width: 350px;
+  padding-left: 70px;
+}
+.course-text button{
+  margin: 30px 0;
+}
+h1{
+  color: #000000;
+  font-size: 40px;
+  font-family: 'Abril Fatface', cursive;
+  letter-spacing: 3px;
+}
+.year{
+  font-weight: 600px;
+  font-size: 80px;
+  font-family: 'Prompt', sans-serif;
+}
+
+
+/*--footer--*/
+#footer{
+  padding: 50px 0 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+hr{
+  width: 100%;
+  border: 0;
+  border-top: 1px solid #f67c92;
+}
+.footer-row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer-left-col{
+  flex-basis: 50%;
+  margin-top: 60px;
+}
+.footer-right-col{
+  flex-basis: 35%;
+}
+.footer-links{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.link-title h4{
+  color: #f67c92;
+  margin-bottom: 20px;
+}
+.link-title small{
+  font-size: 13px;
+  color: #777;
+}
+.footer-info{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer-logo img{
+  width: 100px;
+}
+.footer-logo button{
+  padding: 12px 38px;
+  margin-top: 20px;
+  font-size: 10px;
+}
+.copyright-text,.footer-logo{
+  flex-basis: 30%;
+}
